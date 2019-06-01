@@ -27,6 +27,12 @@ const {GraphQLObjectType, GraphQLString, GraphQLSchema, GraphQLID, GraphQLInt, G
 
     //admin
     //thisismypassword
+    
+    //graphql 
+
+
+    //bind graphgl to front end javascript js using 
+    //appolo client 
 
 const BookType = new GraphQLObjectType({
     //function that takes in an object
