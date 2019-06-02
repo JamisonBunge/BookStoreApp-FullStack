@@ -14,6 +14,8 @@ mongoose.connection.once('open',() => {
     console.log('connected to the DB');
 }); 
 
+
+
 //set up middlewhwere
 
 app.use('/graphql',graphqlHTTP({
