@@ -11,6 +11,7 @@ const app = express();
 //allow cross-origin requres
 app.use(cors());
 
+
 //connect to the databse
 mongoose.connect('mongodb+srv://admin:thisismypassword@cluster0-hiujx.mongodb.net/test');
 mongoose.connection.once('open', () => {
