@@ -8,13 +8,13 @@ const bookSchema = new Schema({
     authorId: String,
     //we dont need to declare ID and author ID because mongoDB will crease these
     //by itself
-    //this is about telling the DB what info is being sored
+    //this is about telling the DB what info is being stored
 
 
 });
 
-module.exports = mongoose.model('Book',bookSchema)
+module.exports = mongoose.model('Book', bookSchema)
 
-//making the model (collection) called 'Book' that has objects
-//inside of it that look like bookSchema
+//making the model (collection) called 'Book' that has objects inside
+//of it that look like 'bookSchema'
 //we export this.

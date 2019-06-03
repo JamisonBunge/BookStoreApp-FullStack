@@ -30,7 +30,7 @@ body {
 
 #book-list {
   padding: 0;
-  
+
 }
 #book-list li{
   display: inline-block;
@@ -43,7 +43,7 @@ body {
   color: #880E4F
 }
 
-form{
+#add-book {
   background: #fff;
   padding: 20px;
   position: fixed;
@@ -70,7 +70,7 @@ form select, form input {
 }
 
 form button {
-  color: #fff; 
+  color: #fff;
   font-size: 2em;
   background: #ad1457;
   border: 0;
@@ -102,3 +102,12 @@ form button {
   background: gray;
 }
 
+
+#add-author {
+  background: #fff;
+  padding: 20px;
+  position: fixed;
+  right: 0;
+  bottom: 0 ;
+  width: 400px;
+}
